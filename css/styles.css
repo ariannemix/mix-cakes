@@ -11,6 +11,8 @@ h1 {
 .homepage-img {
     border-radius: 8px;
     box-shadow: -.2em -.2em 10px rgb(0,0,0,.2), 5px 5px 10px rgb(0,0,0,.2);
+    margin-top: 20px;
+    
 }
 
 .homepage-info-div {
@@ -22,12 +24,38 @@ h1 {
 
 }
 
-.homepage-text {
+.homepage-text, .homepage-text-two {
     padding: 20px 10px;
     background-color: white;
     border-radius: 4px;
     box-shadow: -.2em -.2em 10px rgb(0,0,0,.1), 5px 5px 10px rgb(0,0,0,.1);
     margin-top: 20px;
+}
+
+.homepage-text-two h1 {
+    font-size: 24px;
+}
+
+.connect-links, .connect-links:visited {
+    color: rgb(0,0,0,.9);
+}
+
+.connect-links:hover {
+    color: rgb(0,0,0,.6);
+}
+
+.instagram-icon {
+ text-align: right;
+}
+
+.insta {
+    padding: 24px;
+    background-color: var(--primary-color);
+    border-radius: 100px;
+}
+
+.facebook-icon {
+    text-align: left;
 }
 
 .homepage-text p {
@@ -39,18 +67,11 @@ h1 {
     box-shadow: 0 3px 10px rgb(0,0,0,.2);
 }
 
-.max-width {
-    max-width: 70%;
-}
-
-.navbar-link {
-    font-family: var(--secondary-font);
-    font-size: 18px;
-}
-
 .nav-link {
     color: #353434 !important;
     opacity: .7;
+    font-family: var(--secondary-font);
+    font-size: 18px;
 }
 
 .logo-top {
@@ -73,7 +94,7 @@ h1 {
     margin-right: 60px;
 }
 
-    .navbar-link {
+    .nav-link {
     padding-top: 65px;
 }
 
@@ -95,20 +116,20 @@ h1 {
     padding-top: 12px;
 }
 
+    .homepage-text-two {
+    display: none;
+}
 
-    .homepage-img {
-    margin-top: 20px;
-    }
 
     p {
     font-size: 8px;
 }
 
-h1 {
+    h1 {
     display: none;
 }
-    .navbar-link {
-    font-size: 13px;
+    .nav-link {
+    font-size: 11px;
 }
 
 }
